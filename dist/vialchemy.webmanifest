@@ -1,0 +1,27 @@
+{
+  "id": "/jogar/",
+  "name": "Vialchemy — STUDIO 1108 GAMES",
+  "short_name": "Vialchemy",
+  "description": "O jogo de alquimia da STUDIO 1108 GAMES, direto na sua tela inicial.",
+  "lang": "pt-BR",
+  "start_url": "/jogar/?origem=tela-inicial",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080c0f",
+  "theme_color": "#080c0f",
+  "icons": [
+    {
+      "src": "/assets/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "prefer_related_applications": false
+}
