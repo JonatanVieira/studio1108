@@ -1,0 +1,49 @@
+name: Publicar site de testes no GitHub Pages
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+      - name: Ler o endereço do Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Conferir arquivos do site
+        run: node check-site.mjs
+      - name: Conferir o fluxo de instalação
+        run: node check-install.mjs
+      - name: Preparar os caminhos do endereço
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: node scripts/build-pages.mjs
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .pages-build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
