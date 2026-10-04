@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "build": "Vialchemy-1-0-0-Web-20261001-104706",
+  "files": {
+    "loader": {
+      "url": "/game/builds/Vialchemy-1-0-0-Web-20261001-104706/Vialchemy-1.0.0-Web-20261001-104706.loader.js",
+      "bytes": 117365
+    },
+    "data": {
+      "bytes": 80259657,
+      "parts": [
+        {
+          "url": "/game/builds/Vialchemy-1-0-0-Web-20261001-104706/Vialchemy-1.0.0-Web-20261001-104706.data.unityweb.part-000",
+          "bytes": 16777216,
+          "sha256": "8f2d1498653b43e7bca5fe8857ecec49b1cf1a8064069a3f3de1e3e02c367d06"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-0-0-Web-20261001-104706/Vialchemy-1.0.0-Web-20261001-104706.data.unityweb.part-001",
+          "bytes": 16777216,
+          "sha256": "6dcc930c030a4bcbd11a12fb3f925a4c3d5b4ed62f1d34ff33a73e48a7cb89d7"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-0-0-Web-20261001-104706/Vialchemy-1.0.0-Web-20261001-104706.data.unityweb.part-002",
+          "bytes": 16777216,
+          "sha256": "cd459a2c565c75a17d91dc96408525abfb3db28912f897927385c78b7cf5d5a0"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-0-0-Web-20261001-104706/Vialchemy-1.0.0-Web-20261001-104706.data.unityweb.part-003",
+          "bytes": 16777216,
+          "sha256": "4806b887a1d84d70d43f116ee58dc4d94496c05c1309369d15840e40d419ab37"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-0-0-Web-20261001-104706/Vialchemy-1.0.0-Web-20261001-104706.data.unityweb.part-004",
+          "bytes": 13150793,
+          "sha256": "85b68dca7e71dc4715a33aa5b92f13a310532f89e1e68d6b1795eca9ab3145c9"
+        }
+      ]
+    },
+    "framework": {
+      "url": "/game/builds/Vialchemy-1-0-0-Web-20261001-104706/Vialchemy-1.0.0-Web-20261001-104706.framework.js.unityweb",
+      "bytes": 76479
+    },
+    "code": {
+      "url": "/game/builds/Vialchemy-1-0-0-Web-20261001-104706/Vialchemy-1.0.0-Web-20261001-104706.wasm.unityweb",
+      "bytes": 8406506
+    }
+  },
+  "totalBytes": 88860007,
+  "streamingAssetsUrl": "/game/StreamingAssets"
+}
