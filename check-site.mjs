@@ -10,7 +10,7 @@ if(game.ready){const build=JSON.parse(await readFile('dist/game/build.json','utf
 const app = JSON.parse(await readFile('dist/vialchemy.webmanifest','utf8'));
 assert.equal(app.id, '/jogar/');
 assert.equal(app.start_url, '/jogar/?origem=tela-inicial');
-assert.equal(app.display, 'standalone');
+assert.equal(app.display, 'fullscreen');
 for (const icon of [...app.icons, {src:'/assets/app-icon-180.png', sizes:'180x180'}]) {
   const png = await readFile(path.join(root,icon.src));
   assert.equal(png.subarray(1,4).toString(), 'PNG');
