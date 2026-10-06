@@ -49,11 +49,14 @@
  .player-toolbar-actions{width:100%;justify-content:space-between}
  .install-dialog{padding:20px}
 }
-@media(display-mode:standalone){
- .player-page{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
- .player-page .site-header{position:relative}
- .player-stage{height:calc(100svh - 200px - env(safe-area-inset-top) - env(safe-area-inset-bottom))}
-}
+/* Home-screen launch: only the game, with room for notches and home gestures.
+   The class is set in the document head, before the first painted frame. */
+html.game-app{height:100%;overflow:hidden;overscroll-behavior:none;background:#040606}
+.game-app .player-page{height:100vh;height:100dvh;min-height:0;overflow:hidden;background:#040606;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
+.game-app .player-layout{display:block;width:100%;height:100%;padding:0;margin:0}
+.game-app .player-layout>div{height:100%;min-height:0}
+.game-app .player-stage{width:100%;height:100%;min-height:0;max-height:none;border:0;border-radius:0}
+.game-app .site-header,.game-app .skip-link,.game-app .player-toolbar,.game-app .player-aside,.game-app .install-status,.game-app .ad-mobile,.game-app .player-intro>.text-link{display:none}
 
 /* Installation guidance: one device at a time, with the native prompt preferred. */
 .install-status{margin:.65rem 0 0;font-size:.875rem;color:var(--muted)}

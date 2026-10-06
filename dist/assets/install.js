@@ -8,6 +8,8 @@ const installButtons = [installButton, installNative];
 const platformButtons = [...document.querySelectorAll('[data-install-platform]')];
 const stepPanels = [...document.querySelectorAll('[data-install-steps]')];
 const standalone = window.matchMedia('(display-mode: standalone)');
+const fullscreenApp = window.matchMedia('(display-mode: fullscreen)');
+const runningAsApp = () => standalone.matches || fullscreenApp.matches || navigator.standalone === true;
 const isAppleMobile = /iPad|iPhone|iPod/.test(navigator.userAgent)
   || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 let selectedPlatform = isAppleMobile ? 'ios' : 'android';
@@ -22,7 +24,7 @@ function selectPlatform(platform) {
   stepPanels.forEach(panel => { panel.hidden = panel.dataset.installSteps !== platform; });
 }
 function updateControls(message) {
-  const alreadyInstalled = installed || standalone.matches || navigator.standalone === true;
+  const alreadyInstalled = installed || runningAsApp();
   installButton.hidden = alreadyInstalled;
   installNative.hidden = alreadyInstalled || !installPrompt;
   installButtons.forEach(button => { button.disabled = busy; });
@@ -46,7 +48,7 @@ function openGuide() {
   if (!installGuide.open) installGuide.showModal();
 }
 async function requestInstall() {
-  if (busy || installed || standalone.matches || navigator.standalone === true) return;
+  if (busy || installed || runningAsApp()) return;
   if (!installPrompt) { openGuide(); return; }
   const prompt = installPrompt;
   installPrompt = null;
@@ -82,5 +84,6 @@ installButtons.forEach(button => button.addEventListener('click', requestInstall
 platformButtons.forEach(button => button.addEventListener('click',
   () => selectPlatform(button.dataset.installPlatform)));
 standalone.addEventListener?.('change', () => updateControls());
+fullscreenApp.addEventListener?.('change', () => updateControls());
 selectPlatform(selectedPlatform);
 updateControls();
