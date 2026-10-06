@@ -6,7 +6,7 @@
   "lang": "pt-BR",
   "start_url": "/jogar/?origem=tela-inicial",
   "scope": "/",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#080c0f",
   "theme_color": "#080c0f",
   "icons": [
