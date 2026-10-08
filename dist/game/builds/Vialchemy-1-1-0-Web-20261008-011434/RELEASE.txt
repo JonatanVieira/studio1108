@@ -1,0 +1,5 @@
+Vialchemy 1.1.0 — Web
+Exportação: Vialchemy-1.1.0-Web-20261008-011434
+Compilação concluída: 0 erros, 0 avisos.
+Dados divididos em blocos com integridade SHA-256 verificada pelo carregador.
+A versão anterior foi preservada para permitir retorno.
