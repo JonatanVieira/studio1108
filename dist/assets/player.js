@@ -5,8 +5,7 @@ const status=document.querySelector('#load-status');
 const description=document.querySelector('#load-description');
 const fullButton=document.querySelector('#fullscreen');
 const appMode=document.documentElement.classList.contains('game-app');
-// Preview-only inventory. No ad scripts, requests, rewards or impression events
-// until the publisher account and child-audience treatment are reviewed.
+// Manual placements remain inactive until the advertising configuration is approved.
 if(!appMode){
 const mobileAd=document.createElement('section');
 mobileAd.className='ad-slot ad-mobile';
@@ -23,7 +22,11 @@ function startGame(){
   if(!gameManifest||gameStarted)return;
   gameStarted=true;
   startButton.disabled=true;
-  intro.hidden=true;frame.hidden=false;frame.src=gameManifest.entry;
+  intro.hidden=true;frame.hidden=false;
+  const gameUrl=new URL(gameManifest.entry,location.origin);
+  if(['localhost','127.0.0.1','[::1]'].includes(location.hostname) && new URLSearchParams(location.search).get('ads-test')==='1')
+    gameUrl.searchParams.set('ads-test','1');
+  frame.src=gameUrl.pathname+gameUrl.search+gameUrl.hash;
   fullButton.disabled=!document.fullscreenEnabled;
 }
 async function prepareGame(){

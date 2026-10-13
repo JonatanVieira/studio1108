@@ -1,0 +1,5 @@
+[data-ad-placement][hidden]{display:none!important}
+.ad-site-footer{width:calc(100% - 48px);max-width:960px;height:130px;margin:48px auto}
+.ad-slot.ad-live{height:auto;min-height:280px;padding:30px 0 0}
+.ad-slot.ad-live.ad-mobile,.ad-slot.ad-live.ad-site-footer{height:auto;min-height:130px}
+.ad-slot.ad-live .adsbygoogle{display:block;width:100%}
