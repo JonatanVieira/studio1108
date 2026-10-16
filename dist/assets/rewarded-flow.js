@@ -21,7 +21,7 @@
       session.timer = schedule(() => finish('unavailable'), 45000);
       try {
         requestAd({
-          type: 'reward', name: 'vialchemy-hint',
+          type: 'reward', name: 'vialchemy-resource',
           beforeReward(showAd) {
             if (!current() || session.state !== 'loading' || typeof showAd !== 'function') return;
             session.showAd = showAd;
