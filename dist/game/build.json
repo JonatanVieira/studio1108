@@ -1,141 +1,116 @@
 {
-  "version": "1.1.0",
-  "build": "Vialchemy-1-1-0-Web-20261015-162255-chunks4m",
+  "version": "1.1.1",
+  "build": "Vialchemy-1-1-1-Web-20261016-163728-chunks4m",
   "files": {
     "loader": {
-      "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.loader.js",
+      "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.loader.js",
       "bytes": 117365
     },
     "data": {
-      "bytes": 80265770,
+      "bytes": 59108381,
       "parts": [
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-000",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-000",
           "bytes": 4194304,
-          "sha256": "948eb6829a15ac31814e5dc7c295713935c4d944bed416a1e7b766aa71796c7f"
+          "sha256": "3c5bc1740991ed0cd3a70e29032b8f207a41c536ccc813cbe1eb1967d93d5bf0"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-001",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-001",
           "bytes": 4194304,
-          "sha256": "93a9e0de4cb93cc15cedbb903ce2cc0dc5bfb7a9490bc5aca5e75c5dce4a98f5"
+          "sha256": "8ab61bca899808b69fc2c13dfec663c1508d8da480b31dfb99cbc9191adc97b3"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-002",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-002",
           "bytes": 4194304,
-          "sha256": "c8909cc820875c69ae3a8c57f4cce600b0d0e2fc0ab6e336baf8beb0a76ba4eb"
+          "sha256": "89832d77bd4eeff51bd88b5c43761ff76030e9beaf54b5550ae55a345f6f5e56"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-003",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-003",
           "bytes": 4194304,
-          "sha256": "c3bc1ce92ad299f0913a6df25c30db9387874074bfd414cbd1d3a087eea22b30"
+          "sha256": "b63e41504a50c0b6309b699e828354f421d01672df70de4fb88a92b08b51f29f"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-004",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-004",
           "bytes": 4194304,
-          "sha256": "f39c5e44c3231aa1b630143fd1dbe9e9a20715827d53bb02ae949dbf934d1824"
+          "sha256": "e3c10381f3a9ff4875e829b00968b95ba1ccfef81c1490609cd8ccd6a52a10f5"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-005",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-005",
           "bytes": 4194304,
-          "sha256": "a4c10e24af8e94f5ab489b20314181a84774b23fc8fe3246852797f1e8a395d6"
+          "sha256": "1c234ca3474f33d2a305b4cef7ae907b53eb29d81189dec2741d3af108763246"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-006",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-006",
           "bytes": 4194304,
-          "sha256": "11e02513227e13cc163940fbb367355f361ba263b0b3ab05401a9ae856ad89a7"
+          "sha256": "1227903d997a3129c99a4bc4ea76a32c9b38989291a63ca55ececd9c80d7fb31"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-007",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-007",
           "bytes": 4194304,
-          "sha256": "8b528b34c9853144da440a9ffb01ee69f865f69a93e0957955d08f971740e6c8"
+          "sha256": "cf8f1ed3615eeaccd02e3ec4ab23416875774e1ffa7e904ea65dabae978b3a3d"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-008",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-008",
           "bytes": 4194304,
-          "sha256": "4e9e7c5d75b4b5e7909c955d84215e43659c950613b43255ed2bec1ef1af22ca"
+          "sha256": "45603cb46120ca190714006c007088ac40c755fc6d044633b7bf11b5b5493dcd"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-009",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-009",
           "bytes": 4194304,
-          "sha256": "957316e4bf2d9b40ec5e05562ce23db44c591bb1c8944218908a25b152f85b4b"
+          "sha256": "3ac978e3302735d8aed17c85d8162674082eb5edbc270b492aa527a13fda584b"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-010",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-010",
           "bytes": 4194304,
-          "sha256": "5cade972bfa46851184da5e360b744938252dd1de2a9cf5af1d792bf8adcec90"
+          "sha256": "dc0e9cd0c50e35f1a7add75880963e362a5939ff656a116c94b8ef064564427b"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-011",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-011",
           "bytes": 4194304,
-          "sha256": "37326e329e0bc9a49e728aac16c897184bbd2379f60e3cbd26263ddd569a656e"
+          "sha256": "86e9f9719433a863ecd89cfb3e2e8211640d9368d6ae0438050a4604c8c6be33"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-012",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-012",
           "bytes": 4194304,
-          "sha256": "f3c073ff1c7ded1426ae214171f351df0e911b332790a6bf4048f5f74f8898f1"
+          "sha256": "75a510455702e3792cabe8731f20e86835e175f64af426d0eaec16249b4d8278"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-013",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-013",
           "bytes": 4194304,
-          "sha256": "ab516f611cfbfc0cf626470dff7204b6c5fe3d81ca66796338c47ea40600a24d"
+          "sha256": "ab416e34c0b2f3ae74be904e8e478e5d74672975e2e31c2d471c1d99f681ce2e"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-014",
-          "bytes": 4194304,
-          "sha256": "ef2501dab76e70ad403327b920fec623b3e54f743e0d2599258ea208f95ff7c7"
-        },
-        {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-015",
-          "bytes": 4194304,
-          "sha256": "847ab1c117df290a3918b2a8371afe6dff43a6d3a5c7fdd59ca7690939cce2e5"
-        },
-        {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-016",
-          "bytes": 4194304,
-          "sha256": "96382a6bfd617d7cbff4bb330d3821deb5cc7f3980f38444bdeb4ce0b094d8a2"
-        },
-        {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-017",
-          "bytes": 4194304,
-          "sha256": "c33aba0f8eaf8eb0d3a1472049cd629cd0bc6bb80cefabeb206fe34705f8ede7"
-        },
-        {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-018",
-          "bytes": 4194304,
-          "sha256": "ad2b33510cdfe7b2bb18989a2e1a0e945b9a91df5296c0eb9e2d5ceb3a419bb3"
-        },
-        {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.data.unityweb.part-019",
-          "bytes": 573994,
-          "sha256": "0654714752b668e43d9f3ecf82b177c90c7f55d13939d297fac19db8a77f849e"
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.data.unityweb.part-014",
+          "bytes": 388125,
+          "sha256": "0d7df1312ed9f4fc950f2326ac7ca061567d7cb8daa873649182cd176c6a85f3"
         }
       ]
     },
     "framework": {
-      "url": "/game/builds/Vialchemy-1-1-0-Web-20261012-010302-chunks4m/Vialchemy-1.1.0-Web-20261012-010302.framework.js.unityweb",
+      "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.framework.js.unityweb",
       "bytes": 76729
     },
     "code": {
       "bytes": 8407686,
       "parts": [
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.wasm.unityweb.part-000",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.wasm.unityweb.part-000",
           "bytes": 4194304,
           "sha256": "7a4d431c9e1375adba3ad1f3ccb730949f71b9b30b8c1946b938ce9efce2f3b1"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.wasm.unityweb.part-001",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.wasm.unityweb.part-001",
           "bytes": 4194304,
           "sha256": "21971792081bb762e53452dde0a27e4d79f5e280036d42f4e01a9786059c5a20"
         },
         {
-          "url": "/game/builds/Vialchemy-1-1-0-Web-20261015-162255-chunks4m/Vialchemy-1.1.0-Web-20261015-162255.wasm.unityweb.part-002",
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.wasm.unityweb.part-002",
           "bytes": 19078,
           "sha256": "3e48f2d924a2623845ada4a8e0c3b1e8a8b594987be702ebc83809322248f563"
         }
       ]
     }
   },
-  "totalBytes": 88867550,
+  "totalBytes": 67710161,
   "streamingAssetsUrl": "/game/StreamingAssets"
 }
