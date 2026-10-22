@@ -1,0 +1,8 @@
+# Build paths are immutable; manifests and boot files are intentionally excluded.
+/game/builds/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Only independently compressed native parts, never the original sliced stream.
+/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/*.bin.br
+  Content-Encoding: br
+  Content-Type: application/octet-stream
