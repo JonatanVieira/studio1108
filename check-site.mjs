@@ -7,6 +7,8 @@ async function walk(directory){for(const entry of await readdir(directory,{withF
 await walk(root);
 const game=JSON.parse(await readFile('dist/game/manifest.json','utf8'));
 if(game.ready){const build=JSON.parse(await readFile('dist/game/build.json','utf8'));for(const asset of Object.values(build.files)){for(const part of asset.parts||[asset])assert.equal((await stat(path.join(root,part.url))).size,part.bytes);}}
+if(game.ready && JSON.parse(await readFile('dist/game/build.json','utf8')).nativeFiles)
+  await import('./check-native-package.mjs');
 const app = JSON.parse(await readFile('dist/vialchemy.webmanifest','utf8'));
 assert.equal(app.id, '/jogar/');
 assert.equal(app.start_url, '/jogar/?origem=tela-inicial');
