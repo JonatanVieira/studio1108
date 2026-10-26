@@ -30,9 +30,11 @@ async function boot(){
       cacheControl:url=>url.startsWith('blob:')?'no-store':'must-revalidate',
       showBanner:(text,type)=>{if(type==='error'){console.error(text);showError();}else console.warn(text);}};
     const {createGameDownloader}=await import('/game/download.js');
+    const {selectGameDelivery}=await import('/game/delivery.js');
+    const delivery=await selectGameDelivery(build,{origin:location.origin,signal:downloadController.signal});
     const downloader=createGameDownloader({origin:location.origin});
     message.textContent='Carregando os frascos e as poções…';
-    const binaries=await downloader.load(build.files,({loaded,total,cachedBytes,networkBytes})=>{
+    const binaries=await downloader.load(delivery.files,({loaded,total,cachedBytes,networkBytes})=>{
       progress.value=total?loaded/total*.65:0;
       detail.textContent=cachedBytes>0&&networkBytes===0
         ? `Abrindo arquivos salvos: ${Math.round(loaded/1e6)} de ${Math.ceil(total/1e6)} MB`
@@ -50,7 +52,7 @@ async function boot(){
     message.textContent='Acendendo as luzes da oficina…';detail.textContent='Iniciando o jogo.';
     await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=safeUrl(build.files.loader.url);script.onload=resolve;script.onerror=reject;document.body.append(script);});
     const instance=await createUnityInstance(canvas,config,value=>{progress.value=.65+value*.35;});
-    if(location.hostname==='127.0.0.1'||location.hostname==='localhost')console.info('Vialchemy load metrics '+JSON.stringify({build:build.build,downloadMs:Math.round(downloadedAt-started),startupMs:Math.round(performance.now()-started),cachedBytes:binaries.cachedBytes,networkBytes:binaries.networkBytes}));
+    if(location.hostname==='127.0.0.1'||location.hostname==='localhost')console.info('Vialchemy load metrics '+JSON.stringify({build:build.build,native:delivery.native,downloadMs:Math.round(downloadedAt-started),startupMs:Math.round(performance.now()-started),cachedBytes:binaries.cachedBytes,fetchedFileBytes:binaries.networkBytes}));
     loading.hidden=true;canvas.focus();
     window.removeEventListener('pagehide',cancelDownload);
     // Release temporary binary copies once Unity has loaded them.

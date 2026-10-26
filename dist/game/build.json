@@ -112,5 +112,303 @@
     }
   },
   "totalBytes": 67710161,
-  "streamingAssetsUrl": "/game/StreamingAssets"
+  "streamingAssetsUrl": "/game/StreamingAssets",
+  "deliveryRevision": "Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1",
+  "nativeFiles": {
+    "loader": {
+      "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m/Vialchemy-1.1.1-Web-20261016-163728.loader.js",
+      "bytes": 117365
+    },
+    "data": {
+      "bytes": 58923758,
+      "decodedBytes": 83283160,
+      "cache": true,
+      "parts": [
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-000.bin.br",
+          "encoding": "br",
+          "bytes": 3339898,
+          "sha256": "4af45b841102ca20a7a51679ce3de47aaeddd0625146293e5a33d25e60897f3b",
+          "decodedBytes": 4194304,
+          "decodedSha256": "4e39e08df44ef61c5ace7f2df90adddc352ae4fc17d6b6da087962ed721733fc"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-001.bin.br",
+          "encoding": "br",
+          "bytes": 3266104,
+          "sha256": "ffa91a36390c6240a37fac95852a710f253dd830039b33a744b5b29b47ee1475",
+          "decodedBytes": 4194304,
+          "decodedSha256": "75977e40c6ad9f005877297b101d07bd7bea78446d43668bddaed98b14b971f4"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-002.bin.br",
+          "encoding": "br",
+          "bytes": 3229466,
+          "sha256": "39f8b661528ae136e8fd52ae5c3f8a3ccd199dc02631524d8b73a5fa6e2f1187",
+          "decodedBytes": 4194304,
+          "decodedSha256": "3ac522f5011420dacdbf40ebc6ecd4b522b9f4b167e7c15fc7b02bed2e2f3fbb"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-003.bin.br",
+          "encoding": "br",
+          "bytes": 3204224,
+          "sha256": "22bfdd8ff85cfa00ce692b6e6806c8315f3fb404f27bdc91dab4a2b0a59684cf",
+          "decodedBytes": 4194304,
+          "decodedSha256": "f8b39323247a228718e8d13880ffb789457d30a2c5ea7f3149edb69022c42fdc"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-004.bin.br",
+          "encoding": "br",
+          "bytes": 3291105,
+          "sha256": "0c02d1ebbfefb1d9b9a27e60737b91db428db7b91837d1ca5baa1592ae09fb37",
+          "decodedBytes": 4194304,
+          "decodedSha256": "b0e44895ef4c38f5818730c0c22de2e85c65f3a8d859ddb578cc4b460862db8b"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-005.bin.br",
+          "encoding": "br",
+          "bytes": 3285535,
+          "sha256": "576380e787b4030774b29833c08f40c6c8dbb2dbf9fb238cf0ee7236d92a52e3",
+          "decodedBytes": 4194304,
+          "decodedSha256": "f7721f9de91ec01d39bc098184d0e339916be88bb9f470cc333122d220bad3cb"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-006.bin.br",
+          "encoding": "br",
+          "bytes": 3243072,
+          "sha256": "d5a94a041683dceab31f355090689b3df62c0af7be50ab64ad50f5ca51d4d4b5",
+          "decodedBytes": 4194304,
+          "decodedSha256": "fce5675ab3585049bf3c66ebb1330402a015f2e205bb65ca3502b9c2d37afd95"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-007.bin.br",
+          "encoding": "br",
+          "bytes": 3347820,
+          "sha256": "203620f8f868c4a9b4e44f24ac7b3e08861fa9bf5dbee9e0c5dd03d237d1a4c8",
+          "decodedBytes": 4194304,
+          "decodedSha256": "b1805f1a158d65adf202a67e04de86e1b62a3fc9dedbb7699e0a0aca43ba7994"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-008.bin.br",
+          "encoding": "br",
+          "bytes": 3237762,
+          "sha256": "43d30b68d061007e87f638e5f70818b5efebbdc5b774a008a3b115f7e6487f60",
+          "decodedBytes": 4194304,
+          "decodedSha256": "f7aeb7db4e5d638ee51be597f94c22a63d5b6e0484942dc74a79e73ee1f134d6"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-009.bin.br",
+          "encoding": "br",
+          "bytes": 3262363,
+          "sha256": "b40211d2b63f963f4c7fdc34c7cb51ff9f6b9054c4b22d2a3a4a5a995eb0a09a",
+          "decodedBytes": 4194304,
+          "decodedSha256": "8fb94b2ced571f10431984b5dd5b809429ae2d6cda92120118b8efa016795236"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-010.bin.br",
+          "encoding": "br",
+          "bytes": 3211063,
+          "sha256": "6d8c1d61cc846f98e11a90f2abc13ec185554ef7075e3e71d62b83af2f2d63d6",
+          "decodedBytes": 4194304,
+          "decodedSha256": "ef3970d497df4a6018f47522ff0abced45b060bcb161054fe6a39b0e30984d29"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-011.bin.br",
+          "encoding": "br",
+          "bytes": 3427443,
+          "sha256": "0eb057390b0779a166cf0edae2edb45cf11bd489fbcb186c2542a01245246efe",
+          "decodedBytes": 4194304,
+          "decodedSha256": "42f2c355fb65145df72039c21a9c163196e58cfbe5df3f19d8ac4ff025fbb85e"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-012.bin.br",
+          "encoding": "br",
+          "bytes": 3291247,
+          "sha256": "f0674b830eb6d94cb39f9bdc28f99073d571035bc75f46f45e729073df7c0c01",
+          "decodedBytes": 4194304,
+          "decodedSha256": "73c24db3754d8feb9e61455fdf5df4dfa07f54ba7455628645a275ddc952d4e0"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-013.bin.br",
+          "encoding": "br",
+          "bytes": 3243542,
+          "sha256": "55305e80f8a6349bd5fd991c16f41892bfdcf181f224fc12a270842972f3da0c",
+          "decodedBytes": 4194304,
+          "decodedSha256": "b39071fbbbe3f34aa345c49f97d818e29a089d95bd6f982f6d4ada300726a785"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-014.bin.br",
+          "encoding": "br",
+          "bytes": 3210427,
+          "sha256": "4c351b81057e61d628e1d460b05fe3f3bc572ce6ae45584712cae4dbd8332081",
+          "decodedBytes": 4194304,
+          "decodedSha256": "18e93a6e62b6acbad34c87288a2194385fbd21242d8edf843c1c66a67b67b9c3"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-015.bin.br",
+          "encoding": "br",
+          "bytes": 3231252,
+          "sha256": "b45c784e686308c930c579457023ed58f7ef0c449c726c53acfce7467f253e65",
+          "decodedBytes": 4194304,
+          "decodedSha256": "a89705c8e670b1ce4b5f76aeeddc0ff3f0d12eaba3748c9df0385b506424f518"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-016.bin.br",
+          "encoding": "br",
+          "bytes": 3246977,
+          "sha256": "5a2a2204562b0e1028a91a8eb73d39ff9707e8c5c001970c61ee4720dc8ca25e",
+          "decodedBytes": 4194304,
+          "decodedSha256": "dde6f75cb7ede3befcf16e08dee006a5f1ea0530cadeb7547313bb6446bca2b2"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-017.bin.br",
+          "encoding": "br",
+          "bytes": 2117965,
+          "sha256": "76e65c8b704ee7568332f3bbe2d3ae6ecd6180865c27f24c7a9cda40c9cbb20f",
+          "decodedBytes": 4194304,
+          "decodedSha256": "45d079a53381c3eb870a52740d0465021a75e721600cb8dacf59420fa251b69e"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-018.bin.br",
+          "encoding": "br",
+          "bytes": 771598,
+          "sha256": "aa9fcfc85c2f0b2bc2f46e75ceb3c946959d156087b728c06d2af2061663276b",
+          "decodedBytes": 4194304,
+          "decodedSha256": "765f101bb7401a05c87303a4417046e42dff91e53bce52057aa749f875d8fcd0"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/data-019.bin.br",
+          "encoding": "br",
+          "bytes": 464895,
+          "sha256": "47138ebdd1cbd651962925c5236db55ee2bd3259cdd0609e05607d75293392e5",
+          "decodedBytes": 3591384,
+          "decodedSha256": "649248d39e1c935d206267457fcefb11691157333df1722c362efa9e0f206661"
+        }
+      ]
+    },
+    "framework": {
+      "bytes": 76725,
+      "decodedBytes": 460313,
+      "cache": false,
+      "parts": [
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/framework-000.bin.br",
+          "encoding": "br",
+          "bytes": 76725,
+          "sha256": "6efa9071c53dbf5d4bfc6e78fc35d5d866422c360c2e8fe07d4e131e64103b03",
+          "decodedBytes": 460313,
+          "decodedSha256": "8cdedc38bbf9d09680bb309ea3ab5ebe81659664299450d317264f6714df5948"
+        }
+      ]
+    },
+    "code": {
+      "bytes": 8588001,
+      "decodedBytes": 47591574,
+      "cache": false,
+      "parts": [
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-000.bin.br",
+          "encoding": "br",
+          "bytes": 544516,
+          "sha256": "902d79fcc4d3e61746f411106d30fb932fb5c80344199e6024ad14a4d46b3070",
+          "decodedBytes": 4194304,
+          "decodedSha256": "879fd0b464a0aeb8ae40508680d116f5a265d7639c5178e37ea5962c3d027631"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-001.bin.br",
+          "encoding": "br",
+          "bytes": 482332,
+          "sha256": "7f3f73d993fd434b6750f531396c27d1c8ead5cd3b0e444b65450140c4c96659",
+          "decodedBytes": 4194304,
+          "decodedSha256": "c6b02ee884e60eb258b508fea121cafab21a7635103a48a897a2b74c8f5b6303"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-002.bin.br",
+          "encoding": "br",
+          "bytes": 630043,
+          "sha256": "2d8047aee53458076d89d0d6f8c836bbbe478c2f7a2719d3d4b7e7ab8317c20a",
+          "decodedBytes": 4194304,
+          "decodedSha256": "639f32be8fc99ee9cebf20ac9133ec38e9c6ab2a410d865652ea8713724a6ecc"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-003.bin.br",
+          "encoding": "br",
+          "bytes": 671003,
+          "sha256": "10c9638d9a8e2a4f5f95d9e3567bb0c9249410c59de2ab1db63e2a0a07a9ecb5",
+          "decodedBytes": 4194304,
+          "decodedSha256": "6335e06e747ab3a28a3bd06d0e2bcbc52878c016b2524350130ce4f391b4f14c"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-004.bin.br",
+          "encoding": "br",
+          "bytes": 613526,
+          "sha256": "0a6eba56f9cc9b36327da87fe4a818c8647eae36a00395cdf56ceb3e2b7e6cfe",
+          "decodedBytes": 4194304,
+          "decodedSha256": "ea8dd4e022db94f379631b25519d75795776fcd79e994435e06bfe54b96158e5"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-005.bin.br",
+          "encoding": "br",
+          "bytes": 582361,
+          "sha256": "e3b0f877a8ffd8ce9b50002bfe699c2e933acfcac3a85dfeaaf3db813b2cf964",
+          "decodedBytes": 4194304,
+          "decodedSha256": "8de5f1f475c7869e759994057a2a6c5f1c0b1e91f98985a57e20dbaf540a4707"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-006.bin.br",
+          "encoding": "br",
+          "bytes": 820813,
+          "sha256": "9b9b63977ddb6c49a687037ba7fbc148273817c9dcf81b12b1cf1702f02667b8",
+          "decodedBytes": 4194304,
+          "decodedSha256": "777babfccd7609a7826ed378afc48a7b2e46812d0b84b40c8d71a701c191a688"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-007.bin.br",
+          "encoding": "br",
+          "bytes": 1164227,
+          "sha256": "fb12e61761d9b83c142b5d8b9f88592d7c9689c3368996d2701ecfd1eae1fb70",
+          "decodedBytes": 4194304,
+          "decodedSha256": "0f07e77aaf56a26d8945576f90a2598da8c06686feae6f51b1cf21aff75674f5"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-008.bin.br",
+          "encoding": "br",
+          "bytes": 1074237,
+          "sha256": "97697ac8d15ae4a218011553364269a12146644f9c972169e2ca033a444491f2",
+          "decodedBytes": 4194304,
+          "decodedSha256": "c0ce2f7d2ab1915347b2aa5e71c4bb426470778fff93dda99622d842c4ad41af"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-009.bin.br",
+          "encoding": "br",
+          "bytes": 874001,
+          "sha256": "8515b8f9fcb02b6e6d6f66fc242706e8e98bbaba9340e80b88ee489fe23eb6da",
+          "decodedBytes": 4194304,
+          "decodedSha256": "79af9c138439ee7df79cf89b41242123100a1943671e4e6132514955e8e2f893"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-010.bin.br",
+          "encoding": "br",
+          "bytes": 752228,
+          "sha256": "1a7297f36534b69b8672d6a471b669616b0182ad8ae4b64464c44e274e466e2c",
+          "decodedBytes": 4194304,
+          "decodedSha256": "50d226db6d32277aac12ba98bfb2028afc536b99683d870aea7f7526decefef8"
+        },
+        {
+          "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/code-011.bin.br",
+          "encoding": "br",
+          "bytes": 378714,
+          "sha256": "b007321efa5ed1f44e0207efa2db88d2660bdcae7819169078fb242e09e7977e",
+          "decodedBytes": 1454230,
+          "decodedSha256": "bffac708e74b434d4f14af1f5debfb8c7ed2bf7d8ff66b032fcf70fb6f71bc23"
+        }
+      ]
+    }
+  },
+  "nativeProbe": {
+    "url": "/game/builds/Vialchemy-1-1-1-Web-20261016-163728-chunks4m-native-br-v1/probe.bin.br",
+    "bytes": 21,
+    "sha256": "3aaba15b93bef645c93769f5ee26be0f7c24344d12743764f5f6fe9b4bcfc7d7"
+  },
+  "nativeTotalBytes": 67705874
 }
